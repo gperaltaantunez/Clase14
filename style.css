@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/*=========BODY==========*/
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
+}
+
+/*=========HEADER==========*/
+
+header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.header-unknown {
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/*=========MAIN==========*/
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*=========SECTIONS==========*/
+
+section {
+    width: 63%;
+    margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        margin: 0;
+    }
+}
+
+.blog-card {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-text, .about-text {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.blog-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.blog-button {
+    font-family:    'Raleway', sans-serif;
+    padding: 15px 24px 15px 24px;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+}
+
+.blog-button:hover {
+    background-color: #bbbbbb;
+}
+
+.section-0, .section-2 {
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-2 {
+    border-radius: 30px;
+    padding: 3px 9px;
+}
+
+/*=========ASIDE==========*/
+
+aside {
+    width: 31%; 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media (max-width: 768px) {
+    aside {
+        width: 95%;
+    }
+}
+
+.about-card, .popular-post {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+}
+
+.about-card img {
+    width: 100%;
+    height: auto;
+}
+
+.container-popularpost {
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.list-popularpost {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item-list {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.item-list:hover {
+    background-color: #bbbbbb;
+}
+
+.container-flex {
+    display: flex;
+    padding: 5px 20px 5px 20px;
+}
+
+.img-list {
+    width: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.list-title {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.tags {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.tags-title {
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+.tags-group {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.tags-black {
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.tags-gray {
+    background-color:#f1f1f1;
+    color: black;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/*==========FOOTER==========*/
+
+
+.container-footer {
+    background-color: #616161;
+    height: 125px;
+    padding: 35px;
+}
+
+.footer-button-prev {
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 24px 15px 24px;
+    background-color:#8a8a8a;
+    color: #f1f1f1;
+    border: none;
+    width: 100px;
+    cursor: not-allowed;
+}
+
+.footer-button-prev:hover {
+    background-color: #bbbbbb;
+    color: #616161;
+}
+
+.footer-button-next {
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 24px 15px 24px;
+    background-color: black;
+    border: none;
+    width: 100px;
+    color: #ffffff;
+}
+
+.footer-button-next:hover {
+    background-color: #bbbbbb;
+    color: black;
+}
+
+.footer-by {
+    color: #ffffff;
+}
